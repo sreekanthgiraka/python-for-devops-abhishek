@@ -23,3 +23,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
+When the Python script is run, __name__ is set to '__main__', and the code block under if __name__ == '__main__': executes, allowing you to include script-specific actions that should only occur when the script is run directly and not when it's imported as a module
+"""
