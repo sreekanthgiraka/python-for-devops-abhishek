@@ -3,7 +3,7 @@
 
 import requests
 
-# URL to fetch pull requests from the GitHub API
+# URL to fetch pull requests from the GitHub API, f indicates f string.
 url = f'https://api.github.com/repos/kubernetes/kubernetes/pulls'
 
 # Make a GET request to fetch pull requests data from the GitHub API
