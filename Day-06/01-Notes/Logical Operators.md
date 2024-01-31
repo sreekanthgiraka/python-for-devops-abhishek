@@ -29,3 +29,18 @@ b = False
 result = a or b
 # result will be True
 ```
+
+### NOT Operator
+
+```python
+# NOT operator example
+is_true = True
+
+# NOT operation
+result = not is_true
+
+# Print the result
+print(f"The opposite of {is_true} is: {result}")
+# output  The opposite of True is: False
+
+```
