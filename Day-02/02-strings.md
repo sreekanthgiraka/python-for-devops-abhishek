@@ -4,25 +4,6 @@
 
 - In Python, a string is a sequence of characters, enclosed within single (' '), double (" "), or triple (''' ''' or """ """) quotes.
 - Strings are immutable, meaning you cannot change the characters within a string directly. Instead, you create new strings.
-
-Example to show how strings are immutable:
------------------------------------------------------------------------------
-# Creating a string
-original_string = "Hello, World!"
-
-# Attempting to change a character in the string directly
-# This will result in an error because strings are immutable
-# Uncommenting the line below will raise a TypeError
-# original_string[0] = 'h'
-
-# Instead, we create a new string with the desired modifications
-new_string = original_string.replace('H', 'h')
-
-# Printing the original and modified strings
-print("Original string:", original_string)
-print("Modified string:", new_string)
----------------------------------------------------------------------------
-
 - You can access individual characters in a string using indexing, e.g., `my_string[0]` will give you the first character.
 - Strings support various built-in methods, such as `len()`, `upper()`, `lower()`, `strip()`, `replace()`, and more, for manipulation.
 
