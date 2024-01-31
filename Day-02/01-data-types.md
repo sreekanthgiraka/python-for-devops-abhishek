@@ -1,3 +1,4 @@
+
 # Data Types
 
 In programming, a data type is a classification or categorization that specifies which type of value a variable can hold. Data types are essential because they determine how data is stored in memory and what operations can be performed on that data. Python, like many programming languages, supports several built-in data types. Here are some of the common data types in Python:
@@ -8,6 +9,7 @@ In programming, a data type is a classification or categorization that specifies
    - **complex**: Represents complex numbers. Example: `z = 2 + 3j`
 
 2. **Sequence Types:**
+$$Note-Data types in Python are categorized into mutable and immutable data types. Mutable data type is those whose values can be changed, whereas immutable data type is one in which the values can't be changed.
    - **str**: Represents strings (sequences of characters). Example: `text = "Hello, World"`
    - **list**: Represents lists (ordered, mutable sequences). Example: `my_list = [1, 2, 3]`
    - **tuple**: Represents tuples (ordered, immutable sequences). Example: `my_tuple = (1, 2, 3)`
