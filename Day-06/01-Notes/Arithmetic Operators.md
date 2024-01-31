@@ -33,3 +33,17 @@ y = 7
 result = x - y
 print(result)  # Output: 3
 ```
+
+### Exponentation
+
+```python
+base = 2
+exponent = 3
+
+result = base ** exponent
+
+# Print the result
+print(f"{base} raised to the power of {exponent} is: {result}")
+#output: 2 raised to the power of 3 is: 8
+
+```
